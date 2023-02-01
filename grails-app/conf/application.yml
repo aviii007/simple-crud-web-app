@@ -111,6 +111,9 @@ dataSource:
     password: ''
 
 environments:
+server:
+    port: 8081
+
     development:
         dataSource:
             dbCreate: create-drop
